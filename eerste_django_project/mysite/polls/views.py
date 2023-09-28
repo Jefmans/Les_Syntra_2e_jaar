@@ -1,17 +1,33 @@
-from django.shortcuts import render, get_object_or_404
-
+from typing import Any
+from django.db.models.query import QuerySet
+from django.shortcuts import render, get_object_or_404, redirect
 from django.http import HttpResponse, Http404, HttpResponseRedirect
 from .models import Question, Choice
-
 import datetime 
 from django.utils import timezone
-
 from django.template import loader
-
 from django.urls import reverse
-
+from django.views import generic
 
 # Create your views here.
+
+class IndexView(generic.ListView):
+    template_name = "polls/index.html"
+    context_object_name="latest_question_list"
+
+    def get_queryset(self) -> QuerySet[Any]:
+        return Question.objects.order_by("-pub_date")
+
+class DetailView(generic.DetailView):
+    model = Question
+    template_name = "polls/detail.html"
+
+class ResultsView(generic.DetailView):
+    model = Question
+    template_name = "polls/results.html"
+
+
+
 
 def index(request):
     latest_question_list = Question.objects.order_by("-pub_date")
@@ -30,8 +46,13 @@ def detail(request, question_id):
     return render(request, template, context)
 
 def results(request, question_id):
-    response = f"You're looking at the results of question {question_id}"
-    return HttpResponse(response)
+    question = get_object_or_404(Question, pk=question_id)
+    context = {
+        "question" : question,
+    }
+    template = "polls/results.html"
+    return render(request, context=context, template_name=template)
+
 
 def vote(request, question_id): 
     question = get_object_or_404(Question, pk = question_id)
@@ -39,9 +60,12 @@ def vote(request, question_id):
     try:
         selected_choice = question.choice_set.get(pk=request.POST["choice"])
     except(KeyError, Choice.DoesNotExist) as e:
-        return HttpResponse(f"No Choice found \n error: \n {e}")
+        return redirect("polls:detail", question_id)
     # Choice.objects.get(pk = request.POST["choice"])
     print(selected_choice)
+
+    selected_choice.votes += 1
+    selected_choice.save()
 
     return HttpResponseRedirect(reverse('polls:results', args=(question_id, )))
 
