@@ -28,7 +28,6 @@ class ResultsView(generic.DetailView):
 
 
 
-
 def index(request):
     latest_question_list = Question.objects.order_by("-pub_date")
     template = "polls/index.html"
