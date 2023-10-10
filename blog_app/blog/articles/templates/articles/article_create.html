@@ -1,0 +1,31 @@
+<h1>Create Article</h1>
+
+<form action="{% url "articles:article_create" %}" method="post">
+    {% csrf_token %}
+    <fieldset>
+        <label for="title">Title:</label>
+        <input type="text" name="title" id="title">
+    <br>
+    <br>
+        <label for="short_description">Short description:</label>
+        <input type="textarea" name="short_description" id="short_description">
+    <br>
+    <br>
+        <label for="description">Description:</label>
+        <textarea name="description" id="description" rows="4" cols="50"></textarea>
+    
+        <br>
+        <br>
+        {% for author in authors %}
+            <input type="radio" name="author" id="author{{author.id}}" value={{author.id}}>
+            <label for="author{{author.id}}">{{author.first_name}} {{author.last_name}}</label>
+            <br>
+        {% endfor %}
+        <br>
+        <br>
+        <input type="submit" value="Create">
+
+    </fieldset>
+
+    
+</form>

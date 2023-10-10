@@ -1,1 +1,5 @@
-<h1>Author detail</h1>
+<h1>{{author.first_name}} {{ author.last_name }}</h1>
+
+
+
+<a href="{% url "articles:articles_per_author_list" author.id %}">Alle articles van deze auteur</a>

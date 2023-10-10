@@ -1,5 +1,7 @@
-<h1>{{ article }}</h1>
+<h1>{{ article.title }}</h1>
 
 <h2>{{ article.creation_date }}</h2>
 
 <p>{{ article.short_description }}</p>
+
+<a href="{% url "articles:author_detail" article.author.id %}">Ga naar de pagina van {{article.author.first_name}} {{article.author.last_name}}</a>

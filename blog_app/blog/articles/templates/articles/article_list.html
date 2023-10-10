@@ -10,3 +10,11 @@
 {% else %}
     <p>Er zijn geen articles</p>
 {% endif %}
+
+
+<strong><a href="{% url "articles:author_list" %}">Bekijk onze auteurs</a></strong>
+
+<br>
+<br>
+
+<a href="{% url "articles:article_create" %}"><button>Nieuw Artikel</button></a>

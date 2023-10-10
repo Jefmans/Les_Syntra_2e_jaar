@@ -15,7 +15,7 @@ class Article(models.Model):
     short_description = models.TextField()
     description = models.TextField()
 
-    creation_date = models.DateTimeField(auto_created=True)
+    creation_date = models.DateTimeField(auto_now_add=True)
 
     def __str__(self) -> str:
         return self.title

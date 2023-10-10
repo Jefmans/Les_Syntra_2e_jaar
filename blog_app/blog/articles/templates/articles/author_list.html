@@ -1,1 +1,15 @@
 <h1>Author List</h1>
+
+
+{% if authors %}
+<ul>
+    {% for author in authors %}
+        <li><a href="{% url "articles:author_detail" author.id %}">{{author.first_name}} {{ author.last_name }}</a></li>
+    {% endfor %}
+</ul>
+{% else %}
+    <p>Er zijn geen authors</p>
+{% endif %}
+
+
+<strong><a href="{% url "articles:article_list" %}">Bekijk onze artikels</a></strong>
