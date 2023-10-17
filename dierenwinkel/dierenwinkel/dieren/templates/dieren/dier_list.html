@@ -1,0 +1,17 @@
+<h1>Dieren Lijst</h1>
+
+
+{% if dieren %}
+    
+    <ul>
+        {% for dier in dieren %}
+            <li>
+                <a href="{% url "dieren:dier_detail" dier.id %}">{{dier.naam}}</a>
+            </li>
+        {% endfor %}
+    </ul>
+
+
+{% else %}
+    <p>Er zijn geen dieren</p>
+{% endif %}

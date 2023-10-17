@@ -1,0 +1,32 @@
+
+
+<h1>Create Dier</h1>
+
+
+<form action="{% url "dieren:dier_create" %}" method="Post">
+    {% csrf_token %}
+    <fieldset>
+        <label for="">Naam</label>
+        <input type="text" name='naam' id='naam'>
+        <br>
+        <label for="soort">Choose a soort:</label>
+        <select id="soort" name="soort">
+            {% for soort in soorten %}
+                <option value={{soort.id}}>{{soort.naam}}</option>  
+            {% endfor %}
+        </select>
+        <br>
+        <label for="kleur">Choose a soort:</label>
+        <select id="kleur" name="kleur">
+            {% for kleur in kleuren %}
+                <option value="{{kleur.id}}">{{kleur.naam}}</option>  
+            {% endfor %}
+        </select>
+        <br>
+        <label for="grootte">Grootte (cm)</label>
+        <input type="number"  name="grootte" min=0 max=1800 step=10 placeholder="Grootte (cm)" required/>
+
+
+    </fieldset>
+    <button type="submit">Create</button>
+</form>
