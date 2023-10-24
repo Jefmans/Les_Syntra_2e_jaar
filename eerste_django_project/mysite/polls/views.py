@@ -16,11 +16,16 @@ class IndexView(generic.ListView):
     context_object_name="latest_question_list"
 
     def get_queryset(self) -> QuerySet[Any]:
-        return Question.objects.order_by("-pub_date")
+        return Question.objects.filter(pub_date__lte = timezone.now()).order_by("-pub_date")[:3]
 
 class DetailView(generic.DetailView):
     model = Question
     template_name = "polls/detail.html"
+
+    def get_queryset(self):
+        question = Question.objects.filter(pub_date__lte=timezone.now())
+        return question
+
 
 class ResultsView(generic.DetailView):
     model = Question
