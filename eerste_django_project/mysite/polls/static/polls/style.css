@@ -1,5 +1,27 @@
+body {
+    /* background-color: lightblue; */
+    background: url("images/background.jpg") no-repeat;
+    background-size: cover;
+  }
 
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    text-align: center;
+
+}
 
 li a {
     color : green;
+}
+
+#choice1 {
+    font-weight: bold;
+    size: 10%;
+}
+
+.title {
+    border-color: red;
+    border-width: 5px;
+    border-style: solid;
 }
