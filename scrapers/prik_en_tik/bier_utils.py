@@ -3,9 +3,9 @@
 def remove_digit_part(string):
     for i, c in enumerate(string):
         if c.isdigit():
-            new_string = string[:i-1]
+            string = string[:i-1]
             break
-    return new_string.strip()
+    return string.strip()
     
 
 TYPES = ['fles', 'clip', 'blik']
@@ -29,3 +29,9 @@ class Bier():
 
     def __str__(self) -> str:
         return self.naam + ' - ' + self.url + ' - '  + str(self.prijs)
+    
+    def __eq__(self, other):
+        return self.url == other.url
+
+    def __hash__(self) -> int:
+        return hash(self.url)

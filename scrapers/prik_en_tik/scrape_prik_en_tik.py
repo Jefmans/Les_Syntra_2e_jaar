@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 from bier_utils import remove_digit_part, split_naam, Bier
+from datetime import datetime
 
 headers = {
     'User-Agent' : 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0',
@@ -14,43 +15,63 @@ headers = {
     'Upgrade-Insecure-Requests' : '1'
 }
 
-url = "https://www.prikentik.be/bier"
 
-r = requests.get(url, headers=headers)
-# print(r.status_code)
-soup = BeautifulSoup(r.text, 'html.parser')
+def scrape_product_page(url):
+    # url = "https://www.prikentik.be/bier"
+    r = requests.get(url, headers=headers)
+    # print(r.status_code)
+    soup = BeautifulSoup(r.text, 'html.parser')
+    products = soup.main.find('ol', 'product-items')
+    bieren = products.find_all('li', 'product-item')
 
-products = soup.main.find('ol', 'product-items')
-# products = soup.find('div', attrs={'class':'products-grid'})
-# products = soup.find('div', 'products', 'wrapper')
+    bieren_set = set()
+    for bier in bieren:
+        bier_link = bier.find('a', "product-item-link")
+        naam, vol_type = split_naam(bier_link.string)
+        new_naam = remove_digit_part(naam)
+        url = bier_link['href']    
+        bieren_set.add(Bier(new_naam, vol_type, url))
 
-# bieren = products.contents
-bieren = products.find_all('li', 'product-item')
-# bieren = products.findChildren('li', 'product-item')
-# bieren = products.children
-# print(bieren[0])
+    return bieren_set
 
-bieren_set = set()
-
-for bier in bieren:
-    bier_link = bier.find('a', "product-item-link")
-    naam, vol_type = split_naam(bier_link.string)
-    new_naam = remove_digit_part(naam)
-    # print(new_naam, ' : ', vol_type)
-    url = bier_link['href']    
-    # print(url)
-    bieren_set.add(Bier(new_naam, vol_type, url))
-
-for bier in bieren_set:
+def scrape_detail_page_bier(bier):
     r = requests.get(bier.url, headers=headers)
     soup = BeautifulSoup(r.text, 'html.parser')
     prijs = float(soup.find('span', 'price').text[2:].replace(',', '.'))
     bier.set_prijs(prijs)
 
-for bier in bieren_set:
-    print(bier)
+def scrape_multiple_product_pages():
+    all_bieren = set()
+    page = 1
+    while True:   
+        url = f"https://www.prikentik.be/bier?p={page}"
+        r = requests.get(url, headers=headers)
+        print(r.status_code)
+        soup = BeautifulSoup(r.text, 'html.parser')
+        try:
+            products = soup.main.find('ol', 'product-items')
+            bieren = products.find_all('li', 'product-item')
+            print(f"searched links on page {page}")
+        except:
+            print('NOTHING FOUND')
+            break
+        bieren = scrape_product_page(url)
+        page += 1
+        all_bieren = all_bieren.union(bieren)
 
-if __name__ == '__main__':
-    bieren = scrape_product_page()
+    return all_bieren
+
+def main():
+    start_time = datetime.now()
+    bieren = scrape_multiple_product_pages()
     for bier in bieren:
         scrape_detail_page_bier(bier)
+    for bier in bieren:
+        print(bier)
+    print(len(bieren))
+    total_time = (datetime.now() - start_time).seconds
+    print(total_time)
+
+if __name__ == '__main__':
+    main()
+    # test()
