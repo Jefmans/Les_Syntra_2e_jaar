@@ -4,3 +4,17 @@ from django.db import models
 
 class ImmoWebData(models.Model):
     original_url = models.URLField()
+    # original_id = models.CharField(max_length=15, unique=True)
+    original_id = models.CharField(max_length=15)
+    postal_code = models.IntegerField()
+
+    class Meta:
+        constraints = [
+            models.UniqueConstraint(
+                fields=['original_id', 'postal_code'],
+                name = "unique_id"
+            )
+        ]
+
+    def __str__(self) -> str:
+        return self.original_url
