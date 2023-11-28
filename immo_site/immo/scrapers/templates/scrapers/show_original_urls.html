@@ -1,6 +1,12 @@
 <h1>Immoweb Urls</h1>
 
-
+{% if original_urls %}
 <ul>
-    <li><a href=""></a></li>
+    {% for url in original_urls %}
+        <li><a href="{{ url.original_url }}">{{ url.original_url }}</a></li>
+    {% endfor %}
 </ul>
+{% else %}
+<p>No urls found</p>
+
+{% endif %}

@@ -29,7 +29,7 @@ def scrape_immoweb(request):
 def show_original_urls(request):
     template_name = "scrapers/show_original_urls.html" 
 
-    original_urls = ...
+    original_urls = ImmoWebData.objects.all()
 
     context = {
         'original_urls' : original_urls
