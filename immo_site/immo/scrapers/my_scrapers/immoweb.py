@@ -1,5 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
+import json 
+
 
 headers = {
     'User-Agent' : 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0',
@@ -25,4 +27,20 @@ def scrape_overview_page(url):
         all_urls.add(result.a['href'])
     
     return all_urls
+
+def scrape__detail_page(url):
+    # url = "https://www.immoweb.be/nl/zoekertje/appartement/te-koop/mechelen/2800/10981024"
+
+    r = requests.get(url, headers=headers)
+    soup = BeautifulSoup(r.text, 'html.parser')
+    scripts = soup.find_all('script')
+    script = scripts[1].text.strip()
+    substring = 'window.dataLayer.push('
+    position_1 = script.find(substring)
+    text_1 = script[position_1+len(substring):-1].strip()
+    text_1 = text_1.replace('window.location.pathname', '""')
+    text_1 = text_1.replace(': medium,', ': "",')
+    my_json = text_1.replace('// "email": "", // will be sent later (waiting fo GDPR validations)', '"email": "",')
+    my_dict = json.loads(my_json)
     
+    return my_dict

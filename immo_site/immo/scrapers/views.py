@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-from . my_scrapers.immoweb import scrape_overview_page
+from . my_scrapers.immoweb import scrape_overview_page, scrape__detail_page
 
 from .models import ImmoWebData
 
@@ -22,7 +22,13 @@ def scrape_immoweb(request):
         for url in all_urls:
             id = url.split('/')[-1]
             obj, created = ImmoWebData.objects.get_or_create(original_url=url, original_id=id, postal_code=postal_code)
+            if created:
+                data = scrape__detail_page(url)
+                price = data['av_items']['price']
+                obj.price=price
+                obj.save()
             # print(obj, ' : ', created)
+        
 
     return render(request, template_name=template_name)
 

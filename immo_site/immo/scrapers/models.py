@@ -7,6 +7,7 @@ class ImmoWebData(models.Model):
     # original_id = models.CharField(max_length=15, unique=True)
     original_id = models.CharField(max_length=15)
     postal_code = models.IntegerField()
+    price = models.CharField(max_length=20)
 
     class Meta:
         constraints = [
