@@ -1,7 +1,7 @@
 from django.shortcuts import render
 
 from . my_scrapers.immoweb import scrape_overview_page, scrape__detail_page
-
+from .my_scrapers.catfacts import get_cat_fact
 from .models import ImmoWebData
 
 from django.db import IntegrityError 
@@ -39,6 +39,22 @@ def show_original_urls(request):
 
     context = {
         'original_urls' : original_urls
+    }
+
+    return render(request, template_name=template_name, context=context)
+
+
+def show_cat_facts(request):
+    template_name = "scrapers/cat_facts.html" 
+    print(request.POST)
+    cat_fact= ""
+    if request.method == 'POST':
+        if request.POST['new_fact'] == 'catfact':
+            cat_fact = get_cat_fact()
+    
+    
+    context = {
+        'cat_fact' : cat_fact
     }
 
     return render(request, template_name=template_name, context=context)

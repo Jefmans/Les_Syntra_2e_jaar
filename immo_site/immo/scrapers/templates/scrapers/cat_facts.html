@@ -1,0 +1,15 @@
+<h1>Cat Facts</h1>
+
+
+<form action="" method='post'>
+{% csrf_token %}
+    <input type="hidden" value="catfact" name="new_fact">
+    <button type='submit'  >Show me a new fact</button>
+</form>
+
+
+{% if cat_fact %}
+    <h2>{{ cat_fact }}</h2>
+{% else %}
+    <p>No cat fact found </p>
+{% endif %}
