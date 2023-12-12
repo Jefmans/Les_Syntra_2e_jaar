@@ -1,15 +1,23 @@
-<h1>Cat Facts</h1>
+{% extends "base.html" %}
+
+{% block title %}
+    <h1>Cat Facts</h1>
+{% endblock title %}
 
 
-<form action="" method='post'>
-{% csrf_token %}
-    <input type="hidden" value="catfact" name="new_fact">
-    <button type='submit'  >Show me a new fact</button>
-</form>
+
+{% block content %}
+    <form action="" method='post'>
+    {% csrf_token %}
+        <input type="hidden" value="catfact" name="new_fact">
+        <button type='submit'  >Show me a new fact</button>
+    </form>
 
 
-{% if cat_fact %}
-    <h2>{{ cat_fact }}</h2>
-{% else %}
-    <p>No cat fact found </p>
-{% endif %}
+    {% if cat_fact %}
+        <h2>{{ cat_fact }}</h2>
+    {% else %}
+        <p>No cat fact found </p>
+    {% endif %}
+
+{% endblock content %}
