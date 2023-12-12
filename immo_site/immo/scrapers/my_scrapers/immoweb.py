@@ -28,7 +28,7 @@ def scrape_overview_page(url):
     
     return all_urls
 
-def scrape__detail_page(url):
+def scrape_detail_page(url):
     # url = "https://www.immoweb.be/nl/zoekertje/appartement/te-koop/mechelen/2800/10981024"
 
     r = requests.get(url, headers=headers)

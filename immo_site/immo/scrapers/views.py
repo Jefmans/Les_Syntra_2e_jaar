@@ -1,14 +1,17 @@
 from django.shortcuts import render
 
-from . my_scrapers.immoweb import scrape_overview_page, scrape__detail_page
+from . my_scrapers.immoweb import scrape_overview_page, scrape_detail_page
 from .my_scrapers.catfacts import get_cat_fact
 from .models import ImmoWebData
 
 from django.db import IntegrityError 
+
+from django.conf import settings
 # Create your views here.
 
 def overview(request):
     template_name = "scrapers/overview.html"
+    print(settings.BASE_DIR)
     return render(request, template_name=template_name)
 
 
@@ -23,7 +26,7 @@ def scrape_immoweb(request):
             id = url.split('/')[-1]
             obj, created = ImmoWebData.objects.get_or_create(original_url=url, original_id=id, postal_code=postal_code)
             if created:
-                data = scrape__detail_page(url)
+                data = scrape_detail_page(url)
                 price = data['av_items']['price']
                 obj.price=price
                 obj.save()

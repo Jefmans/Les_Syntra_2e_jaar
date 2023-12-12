@@ -1,6 +1,10 @@
+{% extends "base.html" %}
+
+{% block title %}
 <h1>Scrape Immoweb</h1>
+{% endblock title %}
 
-
+{% block content %}
 <form action="" method='post'>
 {% csrf_token %}
     <label for="postal_code">Postal Code:</label>
@@ -10,3 +14,4 @@
 
     <button type='submit'>Start Scraping</button>
 </form>
+{% endblock content %}
