@@ -5,10 +5,23 @@
 {% endblock title %}
 
 {% block content %}
-<form action="" method='post'>
+{% comment %} <form action="" method='post'>
     {% csrf_token %}
     {{ form }}
     <input type="submit" value="submit">
-</form>
+</form> {% endcomment %}
+
+{% comment %} {% for field in form %}
+    <div class="fieldWrapper">
+        {{ field.errors }}
+            {{ field.label_tag }} 
+            {{ field }}       
+    </div> {% endcomment %}
+{% comment %} {% endfor %} {% endcomment %}
+
+
+{{ form.as_p}}
+
+{{ message }}
 {% endblock content %}
 

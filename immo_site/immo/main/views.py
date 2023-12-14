@@ -15,6 +15,7 @@ def contact_us(request):
     if request.method == "POST":
         form = ContactForm(request.POST)
         if form.is_valid():
+            print(form)
             # process the data in form.cleaned_data as required
             # ...
             # redirect to a new URL:
