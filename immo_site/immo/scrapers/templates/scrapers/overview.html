@@ -1,6 +1,15 @@
-<h1>Scrapers Overview</h1>
+{% extends "base.html" %}
 
+{% block title %}
+<h1>Scrapers Overview</h1>
+{% endblock title %}
+
+{% block content %}
 <ul>
     <li><a href="{% url "scrapers:scrape_immoweb" %}">Scrape immoweb.be</a></li>
     <li><a href="{% url "scrapers:original_urls" %}">Show immoweb.be urls</a></li>
 </ul>
+
+
+{{form}}
+{% endblock content %}

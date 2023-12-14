@@ -7,11 +7,13 @@ from .models import ImmoWebData
 from django.db import IntegrityError 
 
 from django.conf import settings
+
 # Create your views here.
 
 def overview(request):
     template_name = "scrapers/overview.html"
     print(settings.BASE_DIR)
+
     return render(request, template_name=template_name)
 
 

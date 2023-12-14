@@ -1,12 +1,19 @@
-<h1>Immoweb Urls</h1>
+{% extends "base.html" %}
 
-{% if original_urls %}
-<ul>
-    {% for url in original_urls %}
-        <li><a href="{{ url.original_url }}">{{ url.original_url }}</a></li>
-    {% endfor %}
-</ul>
-{% else %}
-<p>No urls found</p>
+{% block title %}
+    <h1>Immoweb Urls</h1>
+{% endblock title %}
 
-{% endif %}
+
+{% block content %}
+    {% if original_urls %}
+    <ul>
+        {% for url in original_urls %}
+            <li><a href="{{ url.original_url }}">{{ url.original_url }}</a></li>
+        {% endfor %}
+    </ul>
+    {% else %}
+    <p>No urls found</p>
+
+    {% endif %}
+{% endblock content %}
