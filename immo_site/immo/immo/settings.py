@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     'scrapers.apps.ScrapersConfig',
     'main.apps.MainConfig',
+    'users.apps.UsersConfig',
 ]
 
 MIDDLEWARE = [
@@ -129,5 +130,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 # Authentication settings
-AUTH_USER_MODEL = 'users.User'  # ncustom user model
+AUTH_USER_MODEL = 'users.CustomUser'  # ncustom user model
 LOGIN_REDIRECT_URL = "/"
