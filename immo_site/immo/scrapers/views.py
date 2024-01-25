@@ -8,6 +8,10 @@ from django.db import IntegrityError
 
 from django.conf import settings
 
+from django.contrib.auth.decorators import login_required
+# from django.utils.decorators import 
+
+
 # Create your views here.
 
 def overview(request):
@@ -17,6 +21,7 @@ def overview(request):
     return render(request, template_name=template_name)
 
 
+@login_required
 def scrape_immoweb(request):
     template_name = "scrapers/scrape_immoweb.html" 
 

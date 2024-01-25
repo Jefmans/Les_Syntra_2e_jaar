@@ -1,10 +1,18 @@
 from django.shortcuts import render
 
 from .forms import ContactForm
+
+from .models import Review
 # Create your views here.
 
 def home(request):
     template_name = "main/home.html" 
+
+    subject = "test"
+    message = " meer text"
+    print(request.user)
+
+    Review(subject, message, request.user)
 
     return render(request, template_name=template_name)
 
