@@ -1,0 +1,3822 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xbrl xml:lang="nl" xmlns="http://www.xbrl.org/2003/instance" xmlns:aln="http://www.nbb.be/be/fr/cbso/dict/dom/aln" xmlns:atc="http://www.nbb.be/be/fr/cbso/dict/dom/atc" xmlns:atc-enum="http://www.nbb.be/be/fr/cbso/23.0/enum/atc-enum" xmlns:bas="http://www.nbb.be/be/fr/cbso/dict/dom/bas" xmlns:bkd="http://www.nbb.be/be/fr/cbso/dict/dom/bkd" xmlns:bnf="http://www.nbb.be/be/fr/cbso/dict/dom/bnf" xmlns:cct="http://www.nbb.be/be/fr/cbso/dict/dom/cct" xmlns:cct-enum="http://www.nbb.be/be/fr/cbso/23.0/enum/cct-enum" xmlns:ctc="http://www.nbb.be/be/fr/cbso/dict/dom/ctc" xmlns:cty="http://www.nbb.be/be/fr/cbso/dict/dom/cty" xmlns:cty-enum="http://www.nbb.be/be/fr/cbso/23.0/enum/cty-enum" xmlns:dcl="http://www.nbb.be/be/fr/cbso/dict/dom/dcl" xmlns:dgl="http://www.nbb.be/be/fr/cbso/dict/dom/dgl" xmlns:dim="http://www.nbb.be/be/fr/cbso/dict/dim" xmlns:epc="http://www.nbb.be/be/fr/cbso/dict/dom/epc" xmlns:evt="http://www.nbb.be/be/fr/cbso/dict/dom/evt" xmlns:fct="http://www.nbb.be/be/fr/cbso/dict/dom/fct" xmlns:fct-enum="http://www.nbb.be/be/fr/cbso/23.0/enum/fct-enum" xmlns:gdr="http://www.nbb.be/be/fr/cbso/dict/dom/gdr" xmlns:hrs="http://www.nbb.be/be/fr/cbso/dict/dom/hrs" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:jcc="http://www.nbb.be/be/fr/cbso/dict/dom/jcc" xmlns:jcc-enum="http://www.nbb.be/be/fr/cbso/23.0/enum/jcc-enum" xmlns:lgf="http://www.nbb.be/be/fr/cbso/dict/dom/lgf" xmlns:lgf-enum="http://www.nbb.be/be/fr/cbso/23.0/enum/lgf-enum" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:mdp="http://www.nbb.be/be/fr/cbso/dict/dom/mdp" xmlns:met="http://www.nbb.be/be/fr/cbso/dict/met" xmlns:mmt="http://www.nbb.be/be/fr/cbso/dict/dom/mmt" xmlns:ntr="http://www.nbb.be/be/fr/cbso/dict/dom/ntr" xmlns:open="http://www.nbb.be/be/fr/cbso/dict/dom/open" xmlns:part="http://www.nbb.be/be/fr/cbso/dict/dom/part" xmlns:pcd="http://www.nbb.be/be/fr/cbso/dict/dom/pcd" xmlns:pcd-enum="http://www.nbb.be/be/fr/cbso/23.0/enum/pcd-enum" xmlns:pfc="http://www.nbb.be/be/fr/cbso/dict/dom/pfc" xmlns:prd="http://www.nbb.be/be/fr/cbso/dict/dom/prd" xmlns:psn="http://www.nbb.be/be/fr/cbso/dict/dom/psn" xmlns:qlt="http://www.nbb.be/be/fr/cbso/dict/dom/qlt" xmlns:rls="http://www.nbb.be/be/fr/cbso/dict/dom/rls" xmlns:rsn="http://www.nbb.be/be/fr/cbso/dict/dom/rsn" xmlns:rst="http://www.nbb.be/be/fr/cbso/dict/dom/rst" xmlns:rut="http://www.nbb.be/be/fr/cbso/dict/dom/rut" xmlns:spec="http://www.nbb.be/be/fr/cbso/dict/dom/spec" xmlns:sts="http://www.nbb.be/be/fr/cbso/dict/dom/sts" xmlns:typ="http://www.nbb.be/be/fr/cbso/dict/dom/typ" xmlns:wkr="http://www.nbb.be/be/fr/cbso/dict/dom/wkr" xmlns:wrg="http://www.nbb.be/be/fr/cbso/dict/dom/wrg" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:schemaRef xlink:href="http://www.nbb.be/be/fr/cbso/fws/23.0/mod/m81/m81-f.xsd" xlink:type="simple" />
+  <context id="I0">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m26</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:psn">psn:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:qlt">qlt:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I1">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m27</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:evt">evt:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I2">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m27</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mmt">mmt:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I3">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m27</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mmt">mmt:m2</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I4">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m27</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mmt">mmt:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I5">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m27</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mmt">mmt:m2</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I6">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m29</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:psn">psn:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I7">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m30</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:psn">psn:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I8">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m31</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:psn">psn:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ctc">ctc:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I9">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m31</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:psn">psn:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ctc">ctc:m2</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I10">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m31</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:psn">psn:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ctc">ctc:m4</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I11">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m31</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:psn">psn:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ctc">ctc:m6</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I12">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m32</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I13">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m27</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:evt">evt:m2</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I14">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m28</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:dcl">dcl:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I15">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m28</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:dcl">dcl:m39</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I16">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m28</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:dcl">dcl:m2</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I17">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m31</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:dcl">dcl:m7</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:psn">psn:m12</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="dim:annp">
+        <open:str>Wynants</open:str>
+      </xbrldi:typedMember>
+      <xbrldi:typedMember dimension="dim:afnp">
+        <open:str>Pieter</open:str>
+      </xbrldi:typedMember>
+    </scenario>
+  </context>
+  <context id="I18">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m31</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:psn">psn:m12</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ctc">ctc:m1</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="dim:annp">
+        <open:str>Wynants</open:str>
+      </xbrldi:typedMember>
+      <xbrldi:typedMember dimension="dim:afnp">
+        <open:str>Pieter</open:str>
+      </xbrldi:typedMember>
+    </scenario>
+  </context>
+  <context id="I19">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m31</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:psn">psn:m12</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ctc">ctc:m2</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="dim:annp">
+        <open:str>Wynants</open:str>
+      </xbrldi:typedMember>
+      <xbrldi:typedMember dimension="dim:afnp">
+        <open:str>Pieter</open:str>
+      </xbrldi:typedMember>
+    </scenario>
+  </context>
+  <context id="I20">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m31</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:psn">psn:m12</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ctc">ctc:m4</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="dim:annp">
+        <open:str>Wynants</open:str>
+      </xbrldi:typedMember>
+      <xbrldi:typedMember dimension="dim:afnp">
+        <open:str>Pieter</open:str>
+      </xbrldi:typedMember>
+    </scenario>
+  </context>
+  <context id="I21">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m31</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:psn">psn:m12</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ctc">ctc:m6</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="dim:annp">
+        <open:str>Wynants</open:str>
+      </xbrldi:typedMember>
+      <xbrldi:typedMember dimension="dim:afnp">
+        <open:str>Pieter</open:str>
+      </xbrldi:typedMember>
+    </scenario>
+  </context>
+  <context id="I22">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m115</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:dcl">dcl:m6</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:psn">psn:m12</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="dim:open">
+        <open:id>1</open:id>
+      </xbrldi:typedMember>
+      <xbrldi:typedMember dimension="dim:annp">
+        <open:str>Wynants</open:str>
+      </xbrldi:typedMember>
+      <xbrldi:typedMember dimension="dim:afnp">
+        <open:str>Pieter</open:str>
+      </xbrldi:typedMember>
+    </scenario>
+  </context>
+  <context id="I23">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m115</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:psn">psn:m12</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="dim:open">
+        <open:id>1</open:id>
+      </xbrldi:typedMember>
+      <xbrldi:explicitMember dimension="dim:mmt">mmt:m1</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="dim:annp">
+        <open:str>Wynants</open:str>
+      </xbrldi:typedMember>
+      <xbrldi:typedMember dimension="dim:afnp">
+        <open:str>Pieter</open:str>
+      </xbrldi:typedMember>
+    </scenario>
+  </context>
+  <context id="I24">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m31</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:dcl">dcl:m7</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:psn">psn:m12</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="dim:annp">
+        <open:str>Wynants</open:str>
+      </xbrldi:typedMember>
+      <xbrldi:typedMember dimension="dim:afnp">
+        <open:str>Sander</open:str>
+      </xbrldi:typedMember>
+    </scenario>
+  </context>
+  <context id="I25">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m31</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:psn">psn:m12</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ctc">ctc:m1</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="dim:annp">
+        <open:str>Wynants</open:str>
+      </xbrldi:typedMember>
+      <xbrldi:typedMember dimension="dim:afnp">
+        <open:str>Sander</open:str>
+      </xbrldi:typedMember>
+    </scenario>
+  </context>
+  <context id="I26">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m31</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:psn">psn:m12</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ctc">ctc:m2</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="dim:annp">
+        <open:str>Wynants</open:str>
+      </xbrldi:typedMember>
+      <xbrldi:typedMember dimension="dim:afnp">
+        <open:str>Sander</open:str>
+      </xbrldi:typedMember>
+    </scenario>
+  </context>
+  <context id="I27">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m31</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:psn">psn:m12</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ctc">ctc:m4</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="dim:annp">
+        <open:str>Wynants</open:str>
+      </xbrldi:typedMember>
+      <xbrldi:typedMember dimension="dim:afnp">
+        <open:str>Sander</open:str>
+      </xbrldi:typedMember>
+    </scenario>
+  </context>
+  <context id="I28">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m31</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:psn">psn:m12</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ctc">ctc:m6</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="dim:annp">
+        <open:str>Wynants</open:str>
+      </xbrldi:typedMember>
+      <xbrldi:typedMember dimension="dim:afnp">
+        <open:str>Sander</open:str>
+      </xbrldi:typedMember>
+    </scenario>
+  </context>
+  <context id="I29">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m115</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:dcl">dcl:m6</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:psn">psn:m12</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="dim:open">
+        <open:id>1</open:id>
+      </xbrldi:typedMember>
+      <xbrldi:typedMember dimension="dim:annp">
+        <open:str>Wynants</open:str>
+      </xbrldi:typedMember>
+      <xbrldi:typedMember dimension="dim:afnp">
+        <open:str>Sander</open:str>
+      </xbrldi:typedMember>
+    </scenario>
+  </context>
+  <context id="I30">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m115</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:psn">psn:m12</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="dim:open">
+        <open:id>1</open:id>
+      </xbrldi:typedMember>
+      <xbrldi:explicitMember dimension="dim:mmt">mmt:m1</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="dim:annp">
+        <open:str>Wynants</open:str>
+      </xbrldi:typedMember>
+      <xbrldi:typedMember dimension="dim:afnp">
+        <open:str>Sander</open:str>
+      </xbrldi:typedMember>
+    </scenario>
+  </context>
+  <context id="I31">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m28</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:dcl">dcl:m28</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:psn">psn:m16</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I32">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I33">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I34">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m2</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I35">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m2</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I36">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m4</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m2</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I37">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m5</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m2</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I38">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m3</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I39">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m12</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I40">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m13</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:sts">sts:m2</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I41">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m14</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:sts">sts:m2</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I42">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m9</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rst">rst:m2</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I43">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m9</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rst">rst:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:typ">typ:m3</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I44">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m9</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rst">rst:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:typ">typ:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I45">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m22</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I46">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m23</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I47">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m25</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I48">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I49">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I50">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m2</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I51">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m2</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I52">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m4</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m2</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I53">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m5</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m2</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I54">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m3</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I55">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m12</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I56">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m13</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:sts">sts:m2</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I57">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m14</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:sts">sts:m2</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I58">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m9</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rst">rst:m2</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I59">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m9</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rst">rst:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:typ">typ:m3</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I60">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m9</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rst">rst:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:typ">typ:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I61">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m22</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I62">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m23</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I63">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m25</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I64">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m37</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m4</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I65">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m38</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:sts">sts:m7</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m4</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I66">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m38</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:sts">sts:m5</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m4</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I67">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m38</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m4</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I68">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m43</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m4</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I69">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m43</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:sts">sts:m5</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m4</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I70">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m43</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:sts">sts:m5</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m4</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rsn">rsn:m2</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I71">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m43</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:sts">sts:m7</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m4</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I72">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m50</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I73">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m50</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rst">rst:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I74">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m50</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rst">rst:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m3</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I75">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m50</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rst">rst:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:spec">spec:m94</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I76">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m50</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rst">rst:m2</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I77">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m50</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rst">rst:m3</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I78">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m50</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rst">rst:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m3</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I79">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m51</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rst">rst:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:typ">typ:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I80">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m50</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rst">rst:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:typ">typ:m3</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I81">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m50</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rst">rst:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:spec">spec:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:typ">typ:m3</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I82">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m50</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rst">rst:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:spec">spec:m6</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I83">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m50</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rst">rst:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:spec">spec:m7</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I84">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m50</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rst">rst:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:spec">spec:m8</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I85">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m50</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rst">rst:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:typ">typ:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I86">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m25</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I87">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m37</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m4</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I88">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m38</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m4</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I89">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m38</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:sts">sts:m7</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m4</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I90">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m38</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:sts">sts:m5</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m4</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I91">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m43</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m4</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I92">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m43</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:sts">sts:m5</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m4</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I93">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m43</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:sts">sts:m5</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m4</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rsn">rsn:m2</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I94">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m43</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:sts">sts:m7</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m4</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I95">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m50</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I96">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m50</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rst">rst:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I97">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m50</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rst">rst:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m3</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I98">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m50</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rst">rst:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:spec">spec:m94</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I99">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m50</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rst">rst:m2</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I100">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m50</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rst">rst:m3</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I101">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m50</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rst">rst:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m3</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I102">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m51</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rst">rst:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:typ">typ:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I103">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m50</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rst">rst:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:typ">typ:m3</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I104">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m50</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rst">rst:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:spec">spec:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:typ">typ:m3</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I105">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m50</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rst">rst:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:spec">spec:m6</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I106">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m50</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rst">rst:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:spec">spec:m7</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I107">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m50</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rst">rst:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:spec">spec:m8</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I108">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m50</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rst">rst:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:typ">typ:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I109">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m25</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I110">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m4</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m118</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m17</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I111">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m4</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m7</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I112">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m4</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m6</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bkd">bkd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:spec">spec:m9</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I113">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m4</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mdp">mdp:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m6</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bkd">bkd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:spec">spec:m10</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I114">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m4</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m6</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:typ">typ:m2</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I115">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m4</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m44</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m6</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I116">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m4</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m52</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m3</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I117">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m4</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m52</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:typ">typ:m8</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I118">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m4</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m3</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I119">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m4</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:typ">typ:m8</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I120">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m4</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m59</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:spec">spec:m16</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I121">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m4</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m49</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:spec">spec:m17</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I122">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m4</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m59</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I123">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m4</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m118</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m17</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I124">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m4</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m7</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I125">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m4</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m6</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bkd">bkd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:spec">spec:m9</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I126">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m4</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mdp">mdp:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m6</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bkd">bkd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:spec">spec:m10</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I127">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m4</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m6</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:typ">typ:m2</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I128">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m4</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m44</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m6</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I129">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m4</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m52</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m3</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I130">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m4</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m52</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:typ">typ:m8</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I131">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m4</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m3</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I132">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m4</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:typ">typ:m8</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I133">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m4</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m59</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:spec">spec:m16</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I134">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m4</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m49</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:spec">spec:m17</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I135">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m4</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m59</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I136">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m5</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m44</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:sts">sts:m11</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I137">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m4</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m59</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:sts">sts:m11</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I138">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m5</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m37</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mdp">mdp:m4</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m4</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I139">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m5</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m37</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mdp">mdp:m5</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m4</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I140">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m5</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m43</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mdp">mdp:m5</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m4</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:typ">typ:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I141">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m44</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:sts">sts:m8</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m4</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I142">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m5</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m63</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:sts">sts:m12</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I143">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m5</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m63</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:sts">sts:m12</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bnf">bnf:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I144">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m5</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m44</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:sts">sts:m11</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I145">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m4</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m59</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:sts">sts:m11</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I146">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m5</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m37</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mdp">mdp:m4</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m4</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I147">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m5</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m37</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mdp">mdp:m5</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m4</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I148">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m5</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m43</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mdp">mdp:m5</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m4</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:typ">typ:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I149">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m44</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:sts">sts:m8</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m4</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I150">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m5</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m63</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:sts">sts:m12</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I151">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m5</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m63</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:sts">sts:m12</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bnf">bnf:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I152">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m6</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rut">rut:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bkd">bkd:m4</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:aln">aln:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I153">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m6</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rut">rut:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bkd">bkd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:aln">aln:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I154">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m6</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bkd">bkd:m4</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I155">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m6</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mdp">mdp:m6</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bkd">bkd:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I156">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m6</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bkd">bkd:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I157">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m6</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rut">rut:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bkd">bkd:m4</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:aln">aln:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I158">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m6</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rut">rut:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bkd">bkd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:aln">aln:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I159">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m6</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mdp">mdp:m6</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bkd">bkd:m4</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I160">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m6</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mdp">mdp:m8</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bkd">bkd:m4</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I161">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m6</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bkd">bkd:m4</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I162">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m6</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mdp">mdp:m6</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bkd">bkd:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I163">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m6</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mdp">mdp:m12</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bkd">bkd:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I164">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m6</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bkd">bkd:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I165">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m6</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m70</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:psn">psn:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rut">rut:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bkd">bkd:m4</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rls">rls:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:aln">aln:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I166">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m6</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:psn">psn:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rut">rut:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bkd">bkd:m5</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rls">rls:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:aln">aln:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I167">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m6</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:psn">psn:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rut">rut:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bkd">bkd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rls">rls:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:aln">aln:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I168">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m6</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:psn">psn:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rut">rut:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bkd">bkd:m6</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rls">rls:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:aln">aln:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I169">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m6</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m70</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:psn">psn:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bkd">bkd:m4</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rls">rls:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I170">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m6</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:psn">psn:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bkd">bkd:m5</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rls">rls:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I171">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m6</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:psn">psn:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bkd">bkd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rls">rls:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I172">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m6</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:psn">psn:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bkd">bkd:m6</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rls">rls:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I173">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m6</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m50</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rst">rst:m7</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I174">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m6</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m50</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:rst">rst:m8</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I175">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m6</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m73</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:qlt">qlt:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:typ">typ:m16</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wkr">wkr:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I176">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m6</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m73</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:qlt">qlt:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:typ">typ:m16</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wkr">wkr:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I177">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m6</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m52</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:typ">typ:m7</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I178">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m6</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m52</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:typ">typ:m7</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I179">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m4</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m52</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m6</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:typ">typ:m7</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I180">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m4</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m52</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m6</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:typ">typ:m7</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I181">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m6</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m75</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mdp">mdp:m3</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I182">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m6</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m75</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mdp">mdp:m3</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I183">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m6</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m99</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:dcl">dcl:m16</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="dim:open">
+        <open:id>1</open:id>
+      </xbrldi:typedMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:typ">typ:m2</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I184">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m6</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m107</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I185">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m8</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m110</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="dim:open">
+        <open:id>1</open:id>
+      </xbrldi:typedMember>
+    </scenario>
+  </context>
+  <context id="I186">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m8</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m73</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wrg">wrg:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:gdr">gdr:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:typ">typ:m16</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wkr">wkr:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I187">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m8</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m73</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wrg">wrg:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:gdr">gdr:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:typ">typ:m16</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wkr">wkr:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I188">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m8</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m73</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wrg">wrg:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:gdr">gdr:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:typ">typ:m16</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wkr">wkr:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I189">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m8</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m73</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wrg">wrg:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:gdr">gdr:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:typ">typ:m16</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wkr">wkr:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I190">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m8</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m73</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wrg">wrg:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:gdr">gdr:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wkr">wkr:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:hrs">hrs:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I191">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m8</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m73</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wrg">wrg:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:gdr">gdr:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wkr">wkr:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:hrs">hrs:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I192">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m8</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m73</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wrg">wrg:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:gdr">gdr:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wkr">wkr:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:hrs">hrs:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I193">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m8</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m73</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wrg">wrg:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:gdr">gdr:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wkr">wkr:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:hrs">hrs:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I194">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m8</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wrg">wrg:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:gdr">gdr:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m7</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wkr">wkr:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I195">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m8</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wrg">wrg:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:gdr">gdr:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m7</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wkr">wkr:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I196">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m8</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wrg">wrg:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:gdr">gdr:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m7</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wkr">wkr:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I197">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m8</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wrg">wrg:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:gdr">gdr:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:ntr">ntr:m7</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wkr">wkr:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I198">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m8</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m73</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wrg">wrg:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mmt">mmt:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wkr">wkr:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I199">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m8</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m73</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wrg">wrg:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mmt">mmt:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wkr">wkr:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I200">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m8</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m73</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wrg">wrg:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mmt">mmt:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:qlt">qlt:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wkr">wkr:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I201">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m8</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m73</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wrg">wrg:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mmt">mmt:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wkr">wkr:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:epc">epc:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I202">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m8</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m73</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wrg">wrg:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mmt">mmt:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wkr">wkr:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:epc">epc:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I203">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m8</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m73</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wrg">wrg:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mmt">mmt:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:qlt">qlt:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wkr">wkr:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:epc">epc:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I204">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m8</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m73</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wrg">wrg:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:gdr">gdr:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mmt">mmt:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wkr">wkr:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I205">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m8</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m73</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wrg">wrg:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:gdr">gdr:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mmt">mmt:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wkr">wkr:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I206">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m8</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m73</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wrg">wrg:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:gdr">gdr:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mmt">mmt:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:qlt">qlt:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wkr">wkr:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I207">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m8</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m73</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wrg">wrg:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:gdr">gdr:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mmt">mmt:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wkr">wkr:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:dgl">dgl:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I208">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m8</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m73</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wrg">wrg:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:gdr">gdr:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mmt">mmt:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:qlt">qlt:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wkr">wkr:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:dgl">dgl:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I209">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m8</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m73</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wrg">wrg:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:gdr">gdr:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mmt">mmt:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wkr">wkr:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:dgl">dgl:m2</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I210">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m8</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m73</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wrg">wrg:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:gdr">gdr:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mmt">mmt:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:qlt">qlt:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wkr">wkr:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:dgl">dgl:m2</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I211">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m8</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m73</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wrg">wrg:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:gdr">gdr:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mmt">mmt:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wkr">wkr:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:dgl">dgl:m3</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I212">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m8</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m73</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wrg">wrg:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:gdr">gdr:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mmt">mmt:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wkr">wkr:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:dgl">dgl:m3</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I213">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m8</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m73</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wrg">wrg:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:gdr">gdr:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mmt">mmt:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:qlt">qlt:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wkr">wkr:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:dgl">dgl:m3</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I214">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m8</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m73</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wrg">wrg:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:gdr">gdr:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mmt">mmt:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wkr">wkr:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:dgl">dgl:m4</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I215">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m8</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m73</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wrg">wrg:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:gdr">gdr:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mmt">mmt:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wkr">wkr:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I216">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m8</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m73</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wrg">wrg:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:gdr">gdr:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mmt">mmt:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wkr">wkr:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I217">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m8</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m73</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wrg">wrg:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:gdr">gdr:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mmt">mmt:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:qlt">qlt:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wkr">wkr:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I218">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m8</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m73</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wrg">wrg:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:gdr">gdr:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mmt">mmt:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wkr">wkr:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:dgl">dgl:m3</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I219">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m8</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m73</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wrg">wrg:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:gdr">gdr:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mmt">mmt:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wkr">wkr:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:dgl">dgl:m3</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I220">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m8</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m73</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wrg">wrg:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:gdr">gdr:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mmt">mmt:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:qlt">qlt:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wkr">wkr:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:dgl">dgl:m3</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I221">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m8</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m73</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wrg">wrg:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mmt">mmt:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wkr">wkr:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:pfc">pfc:m2</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I222">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m8</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m73</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wrg">wrg:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mmt">mmt:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wkr">wkr:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:pfc">pfc:m2</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I223">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m8</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m73</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:prd">prd:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wrg">wrg:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mmt">mmt:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:qlt">qlt:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wkr">wkr:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:pfc">pfc:m2</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I224">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m8</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m73</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wrg">wrg:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mdp">mdp:m19</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wkr">wkr:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I225">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m8</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m73</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wrg">wrg:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:qlt">qlt:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mdp">mdp:m19</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wkr">wkr:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I226">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m8</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m73</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wrg">wrg:m1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mdp">mdp:m20</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wkr">wkr:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I227">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m8</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m73</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wrg">wrg:m2</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mdp">mdp:m20</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wkr">wkr:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I228">
+    <entity>
+      <identifier scheme="http://www.fgov.be">0895262587</identifier>
+    </entity>
+    <period>
+      <instant>2022-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="dim:part">part:m8</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:bas">bas:m73</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wrg">wrg:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:qlt">qlt:m3</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:mdp">mdp:m20</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="dim:wkr">wkr:m1</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <unit id="U-EUR">
+    <measure>iso4217:EUR</measure>
+  </unit>
+  <unit id="U-pure">
+    <measure>pure</measure>
+  </unit>
+  <met:str2 contextRef="I0">0895262587</met:str2>
+  <met:dte1 contextRef="I1">2023-06-30</met:dte1>
+  <met:dte1 contextRef="I2">2022-01-01</met:dte1>
+  <met:dte1 contextRef="I3">2022-12-31</met:dte1>
+  <met:dte1 contextRef="I4">2021-01-01</met:dte1>
+  <met:dte1 contextRef="I5">2021-12-31</met:dte1>
+  <met:str2 contextRef="I6">FOSFARI</met:str2>
+  <lgf-enum:list2 contextRef="I7">lgf:m610</lgf-enum:list2>
+  <met:str2 contextRef="I8">Leuvensesteenweg</met:str2>
+  <met:str2 contextRef="I9">136</met:str2>
+  <pcd-enum:list1 contextRef="I10">pcd:m3190</pcd-enum:list1>
+  <cty-enum:list1 contextRef="I11">cty:mBE</cty-enum:list1>
+  <cct-enum:list1 contextRef="I12">cct:m14</cct-enum:list1>
+  <met:dte1 contextRef="I13">2008-01-21</met:dte1>
+  <met:bln1 contextRef="I14">true</met:bln1>
+  <met:bln1 contextRef="I15">false</met:bln1>
+  <met:bln1 contextRef="I16">false</met:bln1>
+  <atc-enum:list1 contextRef="I17">atc:m001</atc-enum:list1>
+  <met:str2 contextRef="I18">Korte Heistraat</met:str2>
+  <met:str2 contextRef="I19">34</met:str2>
+  <pcd-enum:list1 contextRef="I20">pcd:m2800</pcd-enum:list1>
+  <cty-enum:list1 contextRef="I21">cty:mBE</cty-enum:list1>
+  <fct-enum:list1 contextRef="I22">fct:m13</fct-enum:list1>
+  <met:dte1 contextRef="I23">2008-01-11</met:dte1>
+  <atc-enum:list1 contextRef="I24">atc:m001</atc-enum:list1>
+  <met:str2 contextRef="I25">Liersesteenweg</met:str2>
+  <met:str2 contextRef="I26">223</met:str2>
+  <pcd-enum:list1 contextRef="I27">pcd:m2800</pcd-enum:list1>
+  <cty-enum:list1 contextRef="I28">cty:mBE</cty-enum:list1>
+  <fct-enum:list1 contextRef="I29">fct:m13</fct-enum:list1>
+  <met:dte1 contextRef="I30">2008-01-11</met:dte1>
+  <met:bln1 contextRef="I31">false</met:bln1>
+  <met:am1 contextRef="I32" decimals="INF" unitRef="U-EUR">734782.44</met:am1>
+  <met:am1 contextRef="I33" decimals="INF" unitRef="U-EUR">1453.08</met:am1>
+  <met:am1 contextRef="I34" decimals="INF" unitRef="U-EUR">733254.36</met:am1>
+  <met:am1 contextRef="I35" decimals="INF" unitRef="U-EUR">661473.62</met:am1>
+  <met:am1 contextRef="I36" decimals="INF" unitRef="U-EUR">5350.33</met:am1>
+  <met:am1 contextRef="I37" decimals="INF" unitRef="U-EUR">66430.41</met:am1>
+  <met:am1 contextRef="I38" decimals="INF" unitRef="U-EUR">75.0</met:am1>
+  <met:am1 contextRef="I39" decimals="INF" unitRef="U-EUR">1183551.34</met:am1>
+  <met:am1 contextRef="I40" decimals="INF" unitRef="U-EUR">12804.49</met:am1>
+  <met:am1 contextRef="I41" decimals="INF" unitRef="U-EUR">12804.49</met:am1>
+  <met:am1 contextRef="I42" decimals="INF" unitRef="U-EUR">317639.17</met:am1>
+  <met:am1 contextRef="I43" decimals="INF" unitRef="U-EUR">317639.17</met:am1>
+  <met:am1 contextRef="I44" decimals="INF" unitRef="U-EUR">0.0</met:am1>
+  <met:am1 contextRef="I45" decimals="INF" unitRef="U-EUR">0.0</met:am1>
+  <met:am1 contextRef="I46" decimals="INF" unitRef="U-EUR">853107.68</met:am1>
+  <met:am1 contextRef="I47" decimals="INF" unitRef="U-EUR">1918333.78</met:am1>
+  <met:am1 contextRef="I48" decimals="INF" unitRef="U-EUR">760390.31</met:am1>
+  <met:am1 contextRef="I49" decimals="INF" unitRef="U-EUR">3185.41</met:am1>
+  <met:am1 contextRef="I50" decimals="INF" unitRef="U-EUR">757129.9</met:am1>
+  <met:am1 contextRef="I51" decimals="INF" unitRef="U-EUR">700617.89</met:am1>
+  <met:am1 contextRef="I52" decimals="INF" unitRef="U-EUR">9506.53</met:am1>
+  <met:am1 contextRef="I53" decimals="INF" unitRef="U-EUR">47005.48</met:am1>
+  <met:am1 contextRef="I54" decimals="INF" unitRef="U-EUR">75.0</met:am1>
+  <met:am1 contextRef="I55" decimals="INF" unitRef="U-EUR">1320565.17</met:am1>
+  <met:am1 contextRef="I56" decimals="INF" unitRef="U-EUR">37049.07</met:am1>
+  <met:am1 contextRef="I57" decimals="INF" unitRef="U-EUR">37049.07</met:am1>
+  <met:am1 contextRef="I58" decimals="INF" unitRef="U-EUR">460837.43</met:am1>
+  <met:am1 contextRef="I59" decimals="INF" unitRef="U-EUR">384019.09</met:am1>
+  <met:am1 contextRef="I60" decimals="INF" unitRef="U-EUR">76818.34</met:am1>
+  <met:am1 contextRef="I61" decimals="INF" unitRef="U-EUR">8900.0</met:am1>
+  <met:am1 contextRef="I62" decimals="INF" unitRef="U-EUR">813778.67</met:am1>
+  <met:am1 contextRef="I63" decimals="INF" unitRef="U-EUR">2080955.48</met:am1>
+  <met:am2 contextRef="I64" decimals="INF" unitRef="U-EUR">682530.51</met:am2>
+  <met:am1 contextRef="I65" decimals="INF" unitRef="U-EUR">0.0</met:am1>
+  <met:am1 contextRef="I66" decimals="INF" unitRef="U-EUR">18600.0</met:am1>
+  <met:am1 contextRef="I67" decimals="INF" unitRef="U-EUR">18600.0</met:am1>
+  <met:am1 contextRef="I68" decimals="INF" unitRef="U-EUR">663930.51</met:am1>
+  <met:am1 contextRef="I69" decimals="INF" unitRef="U-EUR">1860.0</met:am1>
+  <met:am1 contextRef="I70" decimals="INF" unitRef="U-EUR">1860.0  </met:am1>
+  <met:am1 contextRef="I71" decimals="INF" unitRef="U-EUR">662070.51</met:am1>
+  <met:am1 contextRef="I72" decimals="INF" unitRef="U-EUR">1398424.97</met:am1>
+  <met:am1 contextRef="I73" decimals="INF" unitRef="U-EUR">648262.58</met:am1>
+  <met:am1 contextRef="I74" decimals="INF" unitRef="U-EUR">648262.58</met:am1>
+  <met:am1 contextRef="I75" decimals="INF" unitRef="U-EUR">648262.58</met:am1>
+  <met:am1 contextRef="I76" decimals="INF" unitRef="U-EUR">750162.39  </met:am1>
+  <met:am1 contextRef="I77" decimals="INF" unitRef="U-EUR">48857.53     </met:am1>
+  <met:am1 contextRef="I78" decimals="INF" unitRef="U-EUR">50000.0</met:am1>
+  <met:am1 contextRef="I79" decimals="INF" unitRef="U-EUR">50000.0</met:am1>
+  <met:am1 contextRef="I80" decimals="INF" unitRef="U-EUR">295764.63</met:am1>
+  <met:am1 contextRef="I81" decimals="INF" unitRef="U-EUR">295764.63</met:am1>
+  <met:am1 contextRef="I82" decimals="INF" unitRef="U-EUR">170923.42</met:am1>
+  <met:am1 contextRef="I83" decimals="INF" unitRef="U-EUR">106481.61</met:am1>
+  <met:am1 contextRef="I84" decimals="INF" unitRef="U-EUR">64441.81</met:am1>
+  <met:am1 contextRef="I85" decimals="INF" unitRef="U-EUR">184616.81</met:am1>
+  <met:am1 contextRef="I86" decimals="INF" unitRef="U-EUR">2080955.48</met:am1>
+  <met:am2 contextRef="I87" decimals="INF" unitRef="U-EUR">810528.98</met:am2>
+  <met:am1 contextRef="I88" decimals="INF" unitRef="U-EUR">18600.0 </met:am1>
+  <met:am1 contextRef="I89" decimals="INF" unitRef="U-EUR">18600.0</met:am1>
+  <met:am1 contextRef="I90" decimals="INF" unitRef="U-EUR">0.0</met:am1>
+  <met:am1 contextRef="I91" decimals="INF" unitRef="U-EUR">791928.98    </met:am1>
+  <met:am1 contextRef="I92" decimals="INF" unitRef="U-EUR">0.0</met:am1>
+  <met:am1 contextRef="I93" decimals="INF" unitRef="U-EUR">0.0</met:am1>
+  <met:am1 contextRef="I94" decimals="INF" unitRef="U-EUR">791928.98 </met:am1>
+  <met:am1 contextRef="I95" decimals="INF" unitRef="U-EUR">1107804.8 </met:am1>
+  <met:am1 contextRef="I96" decimals="INF" unitRef="U-EUR">600386.57</met:am1>
+  <met:am1 contextRef="I97" decimals="INF" unitRef="U-EUR">600386.57    </met:am1>
+  <met:am1 contextRef="I98" decimals="INF" unitRef="U-EUR">600386.57   </met:am1>
+  <met:am1 contextRef="I99" decimals="INF" unitRef="U-EUR">507418.23</met:am1>
+  <met:am1 contextRef="I100" decimals="INF" unitRef="U-EUR">48237.24    </met:am1>
+  <met:am1 contextRef="I101" decimals="INF" unitRef="U-EUR">0.0    </met:am1>
+  <met:am1 contextRef="I102" decimals="INF" unitRef="U-EUR">0.0   </met:am1>
+  <met:am1 contextRef="I103" decimals="INF" unitRef="U-EUR">100464.71    </met:am1>
+  <met:am1 contextRef="I104" decimals="INF" unitRef="U-EUR">100464.71    </met:am1>
+  <met:am1 contextRef="I105" decimals="INF" unitRef="U-EUR">135292.28   </met:am1>
+  <met:am1 contextRef="I106" decimals="INF" unitRef="U-EUR">76016.05     </met:am1>
+  <met:am1 contextRef="I107" decimals="INF" unitRef="U-EUR">59276.23     </met:am1>
+  <met:am1 contextRef="I108" decimals="INF" unitRef="U-EUR">223424.0    </met:am1>
+  <met:am1 contextRef="I109" decimals="INF" unitRef="U-EUR">1918333.78 </met:am1>
+  <met:am2 contextRef="I110" decimals="INF" unitRef="U-EUR">767519.93</met:am2>
+  <met:am2 contextRef="I111" decimals="INF" unitRef="U-EUR">376540.22</met:am2>
+  <met:am1 contextRef="I112" decimals="INF" unitRef="U-EUR">76894.08</met:am1>
+  <met:am2 contextRef="I113" decimals="INF" unitRef="U-EUR">-13794.85</met:am2>
+  <met:am1 contextRef="I114" decimals="INF" unitRef="U-EUR">18676.59</met:am1>
+  <met:am2 contextRef="I115" decimals="INF" unitRef="U-EUR">309203.89</met:am2>
+  <met:am1 contextRef="I116" decimals="INF" unitRef="U-EUR">301.48</met:am1>
+  <met:am1 contextRef="I117" decimals="INF" unitRef="U-EUR">301.48</met:am1>
+  <met:am2 contextRef="I118" decimals="INF" unitRef="U-EUR">26157.52</met:am2>
+  <met:am2 contextRef="I119" decimals="INF" unitRef="U-EUR">26157.52</met:am2>
+  <met:am2 contextRef="I120" decimals="INF" unitRef="U-EUR">283347.85</met:am2>
+  <met:am2 contextRef="I121" decimals="INF" unitRef="U-EUR">93063.42</met:am2>
+  <met:am2 contextRef="I122" decimals="INF" unitRef="U-EUR">190284.43</met:am2>
+  <met:am2 contextRef="I123" decimals="INF" unitRef="U-EUR">710665.01</met:am2>
+  <met:am2 contextRef="I124" decimals="INF" unitRef="U-EUR">404292.77</met:am2>
+  <met:am1 contextRef="I125" decimals="INF" unitRef="U-EUR">75525.11</met:am1>
+  <met:am2 contextRef="I126" decimals="INF" unitRef="U-EUR">-17998.0</met:am2>
+  <met:am1 contextRef="I127" decimals="INF" unitRef="U-EUR">40435.7</met:am1>
+  <met:am2 contextRef="I128" decimals="INF" unitRef="U-EUR">208409.43</met:am2>
+  <met:am1 contextRef="I129" decimals="INF" unitRef="U-EUR">1134.87</met:am1>
+  <met:am1 contextRef="I130" decimals="INF" unitRef="U-EUR">1134.87</met:am1>
+  <met:am2 contextRef="I131" decimals="INF" unitRef="U-EUR">25155.17</met:am2>
+  <met:am2 contextRef="I132" decimals="INF" unitRef="U-EUR">25155.17</met:am2>
+  <met:am2 contextRef="I133" decimals="INF" unitRef="U-EUR">184389.13</met:am2>
+  <met:am2 contextRef="I134" decimals="INF" unitRef="U-EUR">63610.83</met:am2>
+  <met:am2 contextRef="I135" decimals="INF" unitRef="U-EUR">120778.3</met:am2>
+  <met:am2 contextRef="I136" decimals="INF" unitRef="U-EUR">190284.43</met:am2>
+  <met:am2 contextRef="I137" decimals="INF" unitRef="U-EUR">190284.43</met:am2>
+  <met:am1 contextRef="I138" decimals="INF" unitRef="U-EUR">62285.96</met:am1>
+  <met:am1 contextRef="I139" decimals="INF" unitRef="U-EUR">190284.43</met:am1>
+  <met:am1 contextRef="I140" decimals="INF" unitRef="U-EUR">190284.43</met:am1>
+  <met:am2 contextRef="I141" decimals="INF" unitRef="U-EUR">0.0</met:am2>
+  <met:am1 contextRef="I142" decimals="INF" unitRef="U-EUR">62285.96</met:am1>
+  <met:am1 contextRef="I143" decimals="INF" unitRef="U-EUR">62285.96</met:am1>
+  <met:am2 contextRef="I144" decimals="INF" unitRef="U-EUR">120778.3</met:am2>
+  <met:am2 contextRef="I145" decimals="INF" unitRef="U-EUR">120778.3</met:am2>
+  <met:am1 contextRef="I146" decimals="INF" unitRef="U-EUR">105800.23</met:am1>
+  <met:am1 contextRef="I147" decimals="INF" unitRef="U-EUR">120778.3</met:am1>
+  <met:am1 contextRef="I148" decimals="INF" unitRef="U-EUR">120778.3</met:am1>
+  <met:am2 contextRef="I149" decimals="INF" unitRef="U-EUR">0.0</met:am2>
+  <met:am1 contextRef="I150" decimals="INF" unitRef="U-EUR">105800.23</met:am1>
+  <met:am1 contextRef="I151" decimals="INF" unitRef="U-EUR">105800.23</met:am1>
+  <met:am1 contextRef="I152" decimals="INF" unitRef="U-EUR">31695.31</met:am1>
+  <met:am1 contextRef="I153" decimals="INF" unitRef="U-EUR">28509.9</met:am1>
+  <met:am1 contextRef="I154" decimals="INF" unitRef="U-EUR">31695.31</met:am1>
+  <met:am1 contextRef="I155" decimals="INF" unitRef="U-EUR">1732.33</met:am1>
+  <met:am1 contextRef="I156" decimals="INF" unitRef="U-EUR">30242.23</met:am1>
+  <met:am1 contextRef="I157" decimals="INF" unitRef="U-EUR">1073395.5</met:am1>
+  <met:am1 contextRef="I158" decimals="INF" unitRef="U-EUR">316265.6</met:am1>
+  <met:am1 contextRef="I159" decimals="INF" unitRef="U-EUR">51286.21</met:am1>
+  <met:am1 contextRef="I160" decimals="INF" unitRef="U-EUR">26940.09</met:am1>
+  <met:am1 contextRef="I161" decimals="INF" unitRef="U-EUR">1097741.62</met:am1>
+  <met:am1 contextRef="I162" decimals="INF" unitRef="U-EUR">75161.75</met:am1>
+  <met:am1 contextRef="I163" decimals="INF" unitRef="U-EUR">26940.09</met:am1>
+  <met:am1 contextRef="I164" decimals="INF" unitRef="U-EUR">364487.26</met:am1>
+  <met:am1 contextRef="I165" decimals="INF" unitRef="U-EUR">75.0</met:am1>
+  <met:am1 contextRef="I166" decimals="INF" unitRef="U-EUR">0.0</met:am1>
+  <met:am1 contextRef="I167" decimals="INF" unitRef="U-EUR">0.0</met:am1>
+  <met:am1 contextRef="I168" decimals="INF" unitRef="U-EUR">0.0</met:am1>
+  <met:am1 contextRef="I169" decimals="INF" unitRef="U-EUR">75.0</met:am1>
+  <met:am1 contextRef="I170" decimals="INF" unitRef="U-EUR">0.0</met:am1>
+  <met:am1 contextRef="I171" decimals="INF" unitRef="U-EUR">0.0 </met:am1>
+  <met:am1 contextRef="I172" decimals="INF" unitRef="U-EUR">0.0</met:am1>
+  <met:am1 contextRef="I173" decimals="INF" unitRef="U-EUR">212350.42</met:am1>
+  <met:am1 contextRef="I174" decimals="INF" unitRef="U-EUR">388036.15</met:am1>
+  <met:dec1 contextRef="I175" decimals="INF" unitRef="U-pure">6.0</met:dec1>
+  <met:dec1 contextRef="I176" decimals="INF" unitRef="U-pure">6.2</met:dec1>
+  <met:am1 contextRef="I177" decimals="INF" unitRef="U-EUR">8264.46</met:am1>
+  <met:am1 contextRef="I178" decimals="INF" unitRef="U-EUR">0.0</met:am1>
+  <met:am1 contextRef="I179" decimals="INF" unitRef="U-EUR">8264.46</met:am1>
+  <met:am1 contextRef="I180" decimals="INF" unitRef="U-EUR">0.0</met:am1>
+  <met:am1 contextRef="I181" decimals="INF" unitRef="U-EUR">0.0</met:am1>
+  <met:am1 contextRef="I182" decimals="INF" unitRef="U-EUR">0.0</met:am1>
+  <met:str1 contextRef="I183">2022 bracht naast nieuwe kansen ook ongekende uitdagingen op de globale en lokale markt. De inflatie in België bereikte in oktober het hoogste niveau in bijna 50 jaar. De economische activiteit in België is sterk vertraagd en zal naar verwachting op korte termijn nauwelijks groeien door toeleveringsproblemen en stijgende prijzen. Dit kan een negatieve impact hebben op de financiële positie van de vennootschap. Het bestuursorgaan zal dan ook de cijfers nauwgezet opvolgen, en indien nodig, maatregelen nemen.</met:str1>
+  <met:am2 contextRef="I183" decimals="INF" unitRef="U-EUR">0.0</met:am2>
+  <met:str1 contextRef="I184">I. Beginsel 
+
+De waarderingsregels worden vastgesteld overeenkomstig de bepalingen van het koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen.
+
+De waarderingsregels werden ten opzichte van het vorige boekjaar qua verwoording of toepassing niet gewijzigd.
+
+
+De resultatenrekening wordt niet op belangrijke wijze beïnvloed door opbrengsten en kosten die aan een vorig boekjaar moeten worden toegerekend.
+
+II. Bijzondere regels
+
+Afschrijvingen geboekt tijdens het jaar
+
+Immateriële vaste activa:
+  L - NG 33,33% - 33,33% 33,33% - 33,33%
+
+IMA:
+  D - NG 20,00% - 20,00% 20,00% - 20,00%
+
+Industriële, administratieve of commerciële gebouwen:
+  L 6,67% - 10,00% 6,67% - 10,00%
+
+Gebouwen:
+  D - NG 5,00% - 5,00% 5,00% - 5,00%
+
+Installaties, machines en uitrusting:
+  L - NG 20,00% - 33,33% 20,00% - 33,33%
+
+IMU:
+  D - NG 20,00% - 33,33% 20,00% - 33,33%
+
+Rollend materieel:
+  L - NG 20,00% - 25,00% 20,00% - 25,00%
+
+Kantoormaterieel en meubilair:
+  L - NG 20,00% - 20,00% 20,00% - 20,00%
+
+Andere materiële vaste activa:
+  L - NG 10,00% - 20,00% 10,00% - 20,00%</met:str1>
+  <jcc-enum:list1 contextRef="I185">jcc:m201</jcc-enum:list1>
+  <met:dec1 contextRef="I186" decimals="INF" unitRef="U-pure">5.0</met:dec1>
+  <met:dec1 contextRef="I187" decimals="INF" unitRef="U-pure">1.4</met:dec1>
+  <met:dec1 contextRef="I188" decimals="INF" unitRef="U-pure">6.0</met:dec1>
+  <met:dec1 contextRef="I189" decimals="INF" unitRef="U-pure">6.2</met:dec1>
+  <met:int4 contextRef="I190" decimals="INF" unitRef="U-pure">8160</met:int4>
+  <met:int4 contextRef="I191" decimals="INF" unitRef="U-pure">1931</met:int4>
+  <met:int4 contextRef="I192" decimals="INF" unitRef="U-pure">10091</met:int4>
+  <met:int4 contextRef="I193" decimals="INF" unitRef="U-pure">10776</met:int4>
+  <met:am2 contextRef="I194" decimals="INF" unitRef="U-EUR">306674.14</met:am2>
+  <met:am2 contextRef="I195" decimals="INF" unitRef="U-EUR">69866.08</met:am2>
+  <met:am2 contextRef="I196" decimals="INF" unitRef="U-EUR">376540.22</met:am2>
+  <met:am2 contextRef="I197" decimals="INF" unitRef="U-EUR">404292.77</met:am2>
+  <met:int3 contextRef="I198" decimals="INF" unitRef="U-pure">5</met:int3>
+  <met:int3 contextRef="I199" decimals="INF" unitRef="U-pure">2</met:int3>
+  <met:dec1 contextRef="I200" decimals="INF" unitRef="U-pure">6.6</met:dec1>
+  <met:int3 contextRef="I201" decimals="INF" unitRef="U-pure">5</met:int3>
+  <met:int3 contextRef="I202" decimals="INF" unitRef="U-pure">2</met:int3>
+  <met:dec1 contextRef="I203" decimals="INF" unitRef="U-pure">6.6</met:dec1>
+  <met:int3 contextRef="I204" decimals="INF" unitRef="U-pure">4</met:int3>
+  <met:int3 contextRef="I205" decimals="INF" unitRef="U-pure">1</met:int3>
+  <met:dec1 contextRef="I206" decimals="INF" unitRef="U-pure">4.8</met:dec1>
+  <met:int3 contextRef="I207" decimals="INF" unitRef="U-pure">3</met:int3>
+  <met:dec1 contextRef="I208" decimals="INF" unitRef="U-pure">3.0</met:dec1>
+  <met:int3 contextRef="I209" decimals="INF" unitRef="U-pure">1</met:int3>
+  <met:dec1 contextRef="I210" decimals="INF" unitRef="U-pure">1.0</met:dec1>
+  <met:int3 contextRef="I211" decimals="INF" unitRef="U-pure">0</met:int3>
+  <met:int3 contextRef="I212" decimals="INF" unitRef="U-pure">1</met:int3>
+  <met:dec1 contextRef="I213" decimals="INF" unitRef="U-pure">0.8</met:dec1>
+  <met:int3 contextRef="I214" decimals="INF" unitRef="U-pure">0</met:int3>
+  <met:int3 contextRef="I215" decimals="INF" unitRef="U-pure">1</met:int3>
+  <met:int3 contextRef="I216" decimals="INF" unitRef="U-pure">1</met:int3>
+  <met:dec1 contextRef="I217" decimals="INF" unitRef="U-pure">1.8</met:dec1>
+  <met:int3 contextRef="I218" decimals="INF" unitRef="U-pure">1</met:int3>
+  <met:int3 contextRef="I219" decimals="INF" unitRef="U-pure">1</met:int3>
+  <met:dec1 contextRef="I220" decimals="INF" unitRef="U-pure">1.8</met:dec1>
+  <met:int3 contextRef="I221" decimals="INF" unitRef="U-pure">5</met:int3>
+  <met:int3 contextRef="I222" decimals="INF" unitRef="U-pure">2</met:int3>
+  <met:dec1 contextRef="I223" decimals="INF" unitRef="U-pure">6.6</met:dec1>
+  <met:int3 contextRef="I224" decimals="INF" unitRef="U-pure">1</met:int3>
+  <met:dec1 contextRef="I225" decimals="INF" unitRef="U-pure">1.0</met:dec1>
+  <met:int3 contextRef="I226" decimals="INF" unitRef="U-pure">1</met:int3>
+  <met:int3 contextRef="I227" decimals="INF" unitRef="U-pure">0</met:int3>
+  <met:dec1 contextRef="I228" decimals="INF" unitRef="U-pure">1.0</met:dec1>
+</xbrl>

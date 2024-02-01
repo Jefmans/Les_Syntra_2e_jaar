@@ -40,6 +40,8 @@ INSTALLED_APPS = [
 
     'fronte_end_packages.apps.FronteEndPackagesConfig',
     'accounts.apps.AccountsConfig',
+    'read_pdfs.apps.ReadPdfsConfig',
+    'photo_docs.apps.PhotoDocsConfig',
 ]
 
 MIDDLEWARE = [
