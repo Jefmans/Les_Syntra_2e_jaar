@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'accounts.apps.AccountsConfig',
     'read_pdfs.apps.ReadPdfsConfig',
     'photo_docs.apps.PhotoDocsConfig',
+    'emailing.apps.EmailingConfig',
 ]
 
 MIDDLEWARE = [
@@ -133,3 +134,13 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 #custom user model
 AUTH_USER_MODEL = 'accounts.CustomUser'
+
+
+#Email settings
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'  # Default SMTP backend
+DEFAULT_FROM_EMAIL = "jefvanrompay@gmail.com"
+EMAIL_HOST = 'smtp.sendgrid.net'  # SendGrid SMTP server
+EMAIL_HOST_USER = "apikey" # SendGrid recommends using 'apikey' as the username
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_PASSWORD = "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" # Replace with your actual SendGrid API key

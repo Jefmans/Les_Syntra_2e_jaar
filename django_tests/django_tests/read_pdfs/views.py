@@ -4,7 +4,6 @@ import PyPDF2
 
 
 
-
 # Create your views here.
 
 
