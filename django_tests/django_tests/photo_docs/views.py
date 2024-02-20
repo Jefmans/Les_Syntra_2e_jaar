@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect
 
 from .forms import MyDataForm
+from .models import MyData
 
 # Create your views here.
 def ___(request):
@@ -12,6 +13,16 @@ def ___(request):
     
     return render(request, context=context, template_name=template_name)
 
+def show_images(request):
+    template_name = "photo_docs/show_images.html"
+
+    all_images = MyData.objects.all()
+
+    context = {
+        'images' : all_images,
+    }
+    
+    return render(request, context=context, template_name=template_name)
 
 
 def overview(request):
@@ -43,3 +54,5 @@ def upload_image(request):
     }
 
     return render(request, context=context, template_name=template_name)
+
+
