@@ -12,6 +12,13 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 
 from pathlib import Path
 
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+sendgrid_api_key = os.getenv("SENDGRID_API_KEY")
+
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -136,6 +143,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 AUTH_USER_MODEL = 'accounts.CustomUser'
 
 
+
 #Email settings
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'  # Default SMTP backend
 DEFAULT_FROM_EMAIL = "jefvanrompay@gmail.com"
@@ -143,4 +151,4 @@ EMAIL_HOST = 'smtp.sendgrid.net'  # SendGrid SMTP server
 EMAIL_HOST_USER = "apikey" # SendGrid recommends using 'apikey' as the username
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_PASSWORD = "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" # Replace with your actual SendGrid API key
+EMAIL_HOST_PASSWORD = sendgrid_api_key
