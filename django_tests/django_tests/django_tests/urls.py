@@ -25,6 +25,10 @@ urlpatterns = [
     path('read_pdfs/', include('read_pdfs.urls')),
     path('docs/', include('photo_docs.urls')),
     path('mails/', include('emailing.urls')),
+    path('dm/', include('dynamic_model.urls')),
+    
+    path('accounts/', include('allauth.urls')),
+
 ] 
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

@@ -50,6 +50,15 @@ INSTALLED_APPS = [
     'read_pdfs.apps.ReadPdfsConfig',
     'photo_docs.apps.PhotoDocsConfig',
     'emailing.apps.EmailingConfig',
+    'dynamic_model.apps.DynamicModelConfig',
+
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+    
+    # 'allauth.socialaccount.providers.github',
+    # 'allauth.socialaccount.providers.google',
+
 ]
 
 MIDDLEWARE = [
@@ -60,6 +69,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+
+    "allauth.account.middleware.AccountMiddleware",
 ]
 
 ROOT_URLCONF = 'django_tests.urls'
@@ -82,6 +93,14 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'django_tests.wsgi.application'
 
+
+AUTHENTICATION_BACKENDS = [
+    # Needed to login by username in Django admin, regardless of `allauth`
+    'django.contrib.auth.backends.ModelBackend',
+
+    # `allauth` specific authentication methods, such as login by email
+    'allauth.account.auth_backends.AuthenticationBackend',
+]
 
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
@@ -156,3 +175,7 @@ EMAIL_HOST_USER = "apikey" # SendGrid recommends using 'apikey' as the username
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_PASSWORD = sendgrid_api_key
+
+
+
+
