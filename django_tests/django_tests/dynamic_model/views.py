@@ -6,21 +6,8 @@ from .models import Blog
 
 def test(request):
     template_name = "dynamic_model/test.html"
-    # all_tr = soup.find_all()
-
-
+    
     names = {'naam' : ['Naam:', 'Name:', ]}
-
-    # blog_data = {}
-    for tr in all_tr:
-        if tr.split(':')[0] in names['naam']:
-            "blog_data['naam'] = 'value'"
-
-    # for tr in all_tr:
-    #     for word in names['naam']:
-    #         if word in tr:
-    #             'do iest'
-
 
     blog_data = {
         "name": "Cheddar Talk",
@@ -33,8 +20,6 @@ def test(request):
     print(b2.name)
     
     b2.save()
-
-
 
     context = {
     }
