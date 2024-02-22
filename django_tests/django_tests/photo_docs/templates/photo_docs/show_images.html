@@ -1,13 +1,13 @@
 <h1>default file name</h1>
 {% for image in images %}
     <p>
-        <a href="{{ image.image.url }}">{{ image.image.name }}</a>
+        <a href="{{ image.file.url }}">{{ image.file.name }}</a>
     </p>
 {% endfor %} 
 
 <h1>Own file name</h1>
 {% for image in images %}
     <p>
-        <a href="{{ image.image.url }}">{{ image.file_name }} -- </a>
+        <a href="{{ image.file.url }}">{{ image.file_name }} -- </a>
     </p>
 {% endfor %}

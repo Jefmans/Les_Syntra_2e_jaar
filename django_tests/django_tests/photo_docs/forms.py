@@ -1,8 +1,14 @@
 from django import forms
-from .models import MyData
+from .models import Image, Document
 
 
-class MyDataForm(forms.ModelForm):
+class ImageForm(forms.ModelForm):
     class Meta:
-        model = MyData
-        fields = ['image']
+        model = Image
+        fields = ['file']
+
+
+class DocumentForm(forms.ModelForm):
+    class Meta:
+        model = Document
+        fields = ['file']

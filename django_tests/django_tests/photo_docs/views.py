@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect
 
-from .forms import MyDataForm
-from .models import MyData
+from .forms import ImageForm, DocumentForm
+from .models import Image, Document
 
 # Create your views here.
 def ___(request):
@@ -16,7 +16,8 @@ def ___(request):
 def show_images(request):
     template_name = "photo_docs/show_images.html"
 
-    all_images = MyData.objects.all()
+    all_images = Image.objects.all()
+    print(all_images)
 
     context = {
         'images' : all_images,
@@ -41,13 +42,13 @@ def upload_image(request):
 
     if request.method == 'POST':
         
-        form = MyDataForm(request.POST, request.FILES)
+        form = ImageForm(request.POST, request.FILES)
 
         if form.is_valid():
             form.save()
             return redirect('docs:overview')
     else:
-        form = MyDataForm()
+        form = ImageForm()
 
     context = {
         'form' : form,
@@ -56,3 +57,32 @@ def upload_image(request):
     return render(request, context=context, template_name=template_name)
 
 
+def upload_doc(request):    
+    template_name = "photo_docs/upload_doc.html"
+
+    if request.method == 'POST':
+        
+        form = DocumentForm(request.POST, request.FILES)
+
+        if form.is_valid():
+            form.save()
+            return redirect('docs:overview')
+    else:
+        form = DocumentForm()
+
+    context = {
+        'form' : form,
+    }
+
+    return render(request, context=context, template_name=template_name)
+
+def show_docs(request):
+    template_name = "photo_docs/show_docs.html"
+
+    all_docs = Document.objects.all()
+
+    context = {
+        'docs' : all_docs,
+    }
+    
+    return render(request, context=context, template_name=template_name)

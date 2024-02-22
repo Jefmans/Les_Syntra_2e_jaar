@@ -1,0 +1,13 @@
+<h1>default file name</h1>
+{% for doc in docs %}
+    <p>
+        <a href="{{ doc.file.url }}">{{ doc.file.name }}</a>
+    </p>
+{% endfor %} 
+
+<h1>Own file name</h1>
+{% for doc in docs %}
+    <p>
+        <a href="{{ doc.file.url }}">{{ doc.file_name }} -- </a>
+    </p>
+{% endfor %}
