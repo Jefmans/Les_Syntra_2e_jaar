@@ -18,6 +18,20 @@ def ___(request):
 
     return render(request, context=context, template_name=template_name)
 
+def test_data_from_front_to_back(request):
+    template_name = "fronte_end_packages/test_data_from_front_to_back.html"
+
+    print(request.POST)
+    print(request.POST.get('hidden_field', 'default_value'))
+
+    print(request.GET)
+    
+    context = {
+        
+    }
+    
+
+    return render(request, context=context, template_name=template_name)
 
 
 def overview(request):

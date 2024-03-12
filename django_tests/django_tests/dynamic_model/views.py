@@ -13,6 +13,7 @@ def test(request):
         "name": "Cheddar Talk",
         "tagline": "Thoughts on cheese."
     }
+    blog_data['Ondernemingsnummer'] = tr.text
 
     b2 = Blog()
     for key, value in blog_data.items():
