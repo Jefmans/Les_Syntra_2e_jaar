@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'photo_docs.apps.PhotoDocsConfig',
     'emailing.apps.EmailingConfig',
     'dynamic_model.apps.DynamicModelConfig',
+    'languages.apps.LanguagesConfig',
 
     'allauth',
     'allauth.account',
@@ -69,6 +70,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    
+    'django.middleware.locale.LocaleMiddleware',
 
     "allauth.account.middleware.AccountMiddleware",
 ]
@@ -135,7 +138,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+# Internationalization
+# add rosetta // django-parler for translations in admin 
+LANGUAGE_CODE = "nl-BE"
 
 TIME_ZONE = 'UTC'
 
@@ -143,6 +148,15 @@ USE_I18N = True
 
 USE_TZ = True
 
+from django.utils.translation import gettext_lazy as _
+LANGUAGES = [
+    ("en", _("English")),
+    ("nl", _("Dutch")),
+    ]
+
+LOCALE_PATHS = [
+    BASE_DIR / 'translations/',
+]
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/

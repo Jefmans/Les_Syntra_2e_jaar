@@ -22,6 +22,7 @@ class Image(models.Model):
 class Document(models.Model):
     file = models.FileField(upload_to=create_upload_string)
     file_name = models.CharField(max_length = 50)
+   
 
     def save(self, *args, **kwargs):
         if self.file:

@@ -1,0 +1,15 @@
+{% load i18n %}
+
+
+{% get_current_language as LANGUAGE_CODE %}
+Current language: {{ LANGUAGE_CODE }}
+<p>{% translate "Welcome to our page" %}</p>
+
+{% comment %} {% language 'nl' %}
+    {% get_current_language as LANGUAGE_CODE %}
+     Current language: {{ LANGUAGE_CODE }}
+    <p>{% translate "Welcome to our page" %}</p>
+{% endlanguage %} {% endcomment %}
+
+
+
