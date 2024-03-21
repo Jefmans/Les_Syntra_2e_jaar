@@ -15,7 +15,7 @@ def show_language(request):
 
 
 
-def set_language(request):
+def settings_language(request):
     template_name = "languages/set_language.html"
 
     context = {
