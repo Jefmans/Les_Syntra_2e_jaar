@@ -71,8 +71,10 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     
+    # Internationalization
     'django.middleware.locale.LocaleMiddleware',
 
+    # Allauth
     "allauth.account.middleware.AccountMiddleware",
 ]
 
@@ -138,7 +140,6 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
 
-# Internationalization
 # add rosetta // django-parler for translations in admin 
 LANGUAGE_CODE = "nl-BE"
 
@@ -150,8 +151,8 @@ USE_TZ = True
 
 from django.utils.translation import gettext_lazy as _
 LANGUAGES = [
-    ("en", _("English")),
-    ("nl", _("Dutch")),
+    ("en", _("Engels")),
+    ("nl", _("Nederlands")),
     ]
 
 LOCALE_PATHS = [

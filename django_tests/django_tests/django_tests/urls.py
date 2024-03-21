@@ -18,6 +18,7 @@ from django.contrib import admin
 from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
+# Internationalization
 from django.conf.urls.i18n import i18n_patterns
 
 
@@ -25,22 +26,20 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('fronte_end_packages.urls')),
     path('read_pdfs/', include('read_pdfs.urls')),
-    path('docs/', include('photo_docs.urls')),
     path('mails/', include('emailing.urls')),
     path('dm/', include('dynamic_model.urls')),
     
     path('accounts/', include('allauth.urls')),
+
     
     path("i18n/", include("django.conf.urls.i18n")),
 
 ]
 
-urlpatterns += i18n_patterns(
-    path('lang/', include('languages.urls')),
-
+urlpatterns += i18n_patterns(    
+    path('languages/', include('languages.urls')),
+    path('docs/', include('photo_docs.urls')),
 )
-
-
 
 
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
