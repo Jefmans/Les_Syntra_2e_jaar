@@ -22,6 +22,8 @@ class Image(models.Model):
 class Document(models.Model):
     file = models.FileField(upload_to=create_upload_string)
     file_name = models.CharField(max_length = 50)
+    test = models.CharField(max_length=20)
+    is_goed = models.BooleanField()
    
 
     def save(self, *args, **kwargs):

@@ -65,7 +65,10 @@ def upload_doc(request):
         form = DocumentForm(request.POST, request.FILES)
 
         if form.is_valid():
-            form.save()
+            doc = form.save(commit=False)
+            doc.test = "new"
+            doc.is_goed = True
+            doc.save()
             return redirect('docs:overview')
     else:
         form = DocumentForm()
