@@ -9,4 +9,7 @@ urlpatterns = [
     
     path('upload_doc/', views.upload_doc, name='upload_doc'),
     path('show_docs/', views.show_docs, name='show_docs'),
+
+
+     path('<int:pk>/update-company/', views.UpdateCompanyView.as_view(), name="update_company"),
 ]
